@@ -7,11 +7,12 @@
  {
      public static void automaticTypePromo()
      {
-         byte b;
+         byte b = 0x02;
 
-         b = (byte)2*b;     // Invalid statement 
-         b = (byte) 2*b;    // Typecasting because type promotion to int
+         b = (byte)(2*b);     // Invalid statement 
+         b = (byte)(2*b);    // Typecasting because type promotion to int
          b *= 2;            // Implicit Typecase
+         System.out.println(b);
      }
 
     /**Airthmetic Operators     -> { *, /, %, +, -, ++, --, +=, -=, *=, /=, %=}
