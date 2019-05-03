@@ -1,4 +1,8 @@
-/** Testing break and continue for label-statement **/
+/* Testing break and continue for label-statement
+ * For break statement:: Enclosing blocks can be us
+ * For continue statement:: Eclosing loops can be used
+*/
+
 
 class Example4
 {
