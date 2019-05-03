@@ -4,7 +4,7 @@
 */
 
 
-class Example4
+class ch3Example4
 {
     public static void labelTest1()
     {

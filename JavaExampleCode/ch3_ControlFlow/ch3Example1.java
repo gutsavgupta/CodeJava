@@ -4,7 +4,7 @@
  * try to see more tricky conditions
  */
 
- class Example1
+ class ch3Example1
  {
 
    public static void TestControl2()

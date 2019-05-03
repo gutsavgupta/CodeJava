@@ -2,7 +2,7 @@
 * Statements like break, continue, return
 */
 
-class Example3
+class ch3Example3
 {
     public static void TestJump1()
     {

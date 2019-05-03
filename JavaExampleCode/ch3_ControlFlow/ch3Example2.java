@@ -4,7 +4,7 @@
  * dimensional arrays
  */
 
-class Example2
+class ch3Example2
 {
     public static void TestControl1()
     {

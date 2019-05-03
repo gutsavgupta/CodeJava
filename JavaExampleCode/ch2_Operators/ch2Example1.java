@@ -3,7 +3,7 @@
  * programs to bring all the highligts
  */
 
- class Example1
+ class ch2Example1
  {
      public static void automaticTypePromo()
      {
