@@ -18,9 +18,7 @@ class tSTACK
     // default constructor //
     tSTACK()
     { 
-        this.stackMsiz = 20;
-        this.stackData = new long[this.stackMsiz];
-        this.stackSize = 0; 
+        this(20);
     }
 
     // Param constructor //
@@ -34,7 +32,7 @@ class tSTACK
     // Push operation //
     void push(long elem)
     {
-        if(stackSize < stackMsiz-1)
+        if(stackSize < stackMsiz)
         {
             stackData[stackSize++] = elem;
         }
@@ -77,9 +75,9 @@ class ch4Example2
 {
     public static void main(String[] args) 
     {
-        tSTACK myStack = new tSTACK(50);
+        tSTACK myStack = new tSTACK(10);
 
-        for(long i=0; i<10; i++)
+        for(long i=0; i<15; i++)
         {
             myStack.push(i*i);
         }
